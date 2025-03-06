@@ -1,0 +1,114 @@
+body{display: flex;
+text-align: center;
+justify-content: center;
+background-color: black;
+}
+.painel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 13, 82);
+    width: 280px;
+    height: 350px;
+    margin-top: 150px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px rgba(73, 73, 67, 0.3);
+}
+.data{
+    background-color:rgb(87, 0, 114);
+    width: 240px;
+    height:310px ;
+    border-radius: 10px;
+}
+.login{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 5px;
+    font-size: 30px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+.name{
+margin-top: 25px;
+margin: 10px;
+color: #fff;
+font-size: 17px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.email{
+    margin-top: 25px;
+    margin: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .box{
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        outline:none;
+    }
+    .atalhos{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 70px;
+        width: 240px;
+        height: 40px;
+        
+        
+    }
+    input{
+        font-size: 15px;
+    }
+    .create-gmail{
+    margin: 0px 15px ;
+    width: 85px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avancar{
+    margin: 10px 5px;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(7, 7, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avancar2{
+
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(7, 7, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .atalhos2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        width: 240px;
+        height: 40px;
+        
+    }
+    .create-gmail2{
+        margin: 0px 15px ;
+        width: 85px;
+        height: 40px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    }
