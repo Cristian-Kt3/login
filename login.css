@@ -16,7 +16,7 @@ background:linear-gradient(to right, black,rgb(87, 0, 114),black);
 }
 .data{
     background-color:rgb(87, 0, 114);
-    width: 240px;
+    width: 250px;
     height:310px ;
     border-radius: 10px;
 }
@@ -36,13 +36,13 @@ font-size: 17px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .email{
-    margin-top: 25px;
     margin: 10px;
     color: #fff;
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .box{
+        width: 190px;
         color: rgb(0, 0, 0);
         font-family: Arial, Helvetica, sans-serif;
         border: none;
