@@ -1,7 +1,7 @@
 body{display: flex;
 text-align: center;
 justify-content: center;
-background-color: black;
+background:linear-gradient(to right, black,rgb(87, 0, 114),black);
 }
 .painel{
     display: flex;
