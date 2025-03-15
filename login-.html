@@ -3,29 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create</title>
+    <title>Login</title>
     <link rel="stylesheet" href="login.css" />
   </head>
   <body>
-    <div class="painel">
-      <div class="data">
-        <div class="infos">
-          <button class="login">Crie Sua Conta</button><br />
-          <div class="name">Digite seu Nome:</div>
-          <input class="box" type="text" placeholder="Nome:" /><br />
-          <div class="email">Digite sua Data De Nascimento:</div>
-          <input class="box" type="date" placeholder="dd/mm/aa:" />
-          <div class="email">Digite Sua Senha:</div> 
-          <input class="box" type="password" placeholder="Senha:" />
+    <section>
+      <form>
+        <h1>Login</h1>
+        <div class="input-box">
+          <ion-icon name="mail-outline"></ion-icon>
+          <input type="email" required />
+          <label for="">User</label>
         </div>
-        <div class="atalhos2">
-          <button class="create-gmail2">Criar Conta</button>
-          <button class="avancar2">Avançar</button>
+        <div class="input-box">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <input type="email" required />
+          <label for="">Password</label>
         </div>
-      </div>
-    </div>
-    <script>
-
-    </script>
+        <div class="forget">
+          <label for=""><input type="checkbox">Remember</label>
+          <a href="#">Forgot Password</a>
+        </div>
+          <button>Login</button>
+        <div class="Register">
+          <p>I don't have a account <a href="#">Register</a></p>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
