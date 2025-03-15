@@ -57,9 +57,11 @@ h1{
     border: none;
     outline: none;
 }
-input:focus ~ label, 
-input:valid ~label{
-    top: -5px;
+.input-box input:focus ~ label,
+.input-box input:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 5px;
+    font-size: 0.8rem;
 }
 .input-box input{
     width: 100%;
