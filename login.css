@@ -22,7 +22,7 @@ section{
     max-width: 400px;
     background-color: transparent;
     border: 2px solid rgba(225, 225, 225, 0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur( 15px);
     border-radius: 40px;
     padding: 2rem 3rem;
 }
